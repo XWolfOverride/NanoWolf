@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Helpers for tests against a real MongoDB (they are skipped without NANOWOLF_MONGO and NANOWOLF_MONGO_DB). -->
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>false</IsTestProject>
+    <RootNamespace>XWolf.NanoWolf.Testing</RootNamespace>
+    <AssemblyName>XWolf.NanoWolf.Mongo.Testing</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xunit.SkippableFact" Version="1.5.85" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NanoWolf.Mongo\NanoWolf.Mongo.csproj" />
+  </ItemGroup>
+
+</Project>

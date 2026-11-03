@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NanoWolf/NanoWolf.csproj" />
+    <Project Path="src/NanoWolf.Mongo/NanoWolf.Mongo.csproj" />
+    <Project Path="src/NanoWolf.Testing/NanoWolf.Testing.csproj" />
+    <Project Path="src/NanoWolf.Mongo.Testing/NanoWolf.Mongo.Testing.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/NanoWolf.Tests/NanoWolf.Tests.csproj" />
+  </Folder>
+</Solution>

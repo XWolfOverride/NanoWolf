@@ -1,0 +1,5 @@
+# Cuando NanoWolf se usa como contexto de una imagen (p. ej. kNo): sin resultados de compilación.
+**/bin/
+**/obj/
+**/.vs/
+.git/
